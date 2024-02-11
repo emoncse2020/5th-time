@@ -16,6 +16,19 @@ body{
 
 
 }
+.sec-title{
+    color: #181818;
+    font-size: 35px;
+    text-align: center;
+
+}
+.sec-des{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+
+}
+
 
 /* nav related style */
 nav{
@@ -46,12 +59,57 @@ nav a{
 }
 .header{
     background-color:#FFF8F3 ;
+    background-image: url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .profile-picture{
     width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner-content{
+    max-width: 500px;
+
+}
+.banner-des{
+    padding: 15px;
+   
+}
+#btn-contact{
+    margin-left: 50px;
+}
+/* main section */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px;
+
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-info-con{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+   
 }

@@ -105,6 +105,7 @@ nav a{
 main{
     max-width: 1140px;
     margin: 0 auto;
+    
 }
 .about-info-con{
     display: flex;
@@ -112,4 +113,27 @@ main{
 }
 .about-info{
    
+}
+.what-I-do-des{
+    padding: 30px 150px;
+}
+.skills-con{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.skill{
+    padding: 30px;
+    gap: 20px;
+}
+/* resume sec */
+.resume-column-titile{
+    font-size: 30px;
+    font-weight:700;
+    color: #474747;
+
+}
+.resume-con{
+    display: flex;
+    justify-content: space-between;
 }
